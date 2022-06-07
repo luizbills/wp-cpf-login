@@ -1,0 +1,19 @@
+{
+    "require": {
+        "php": "^7.4"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "CPF_Login\\": [
+                "classes/"
+            ],
+            "CPF_Login\\Core\\": [
+                "core/"
+            ]
+        }
+    },
+    "suggest": {
+        "ext-mbstring": "Needed for some string helpers"
+    }
+}
